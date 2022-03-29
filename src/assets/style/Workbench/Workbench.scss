@@ -1,0 +1,285 @@
+.Workbench-container-main {
+  width: 300px;
+  height: calc(100% - 130px);
+  background:#eeeeef;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  z-index: 199;
+  .workbench-item {
+    width: calc(100% - 10px);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 11px;
+    margin-bottom: 21px;
+    padding-left: 40px;
+    span {
+      font-size: 16px;
+      font-family: AvenirNext-DemiBold;
+      font-weight: 600;
+      color: #000000;
+      max-width: 70%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    :nth-child(3):hover {
+      cursor: pointer;
+    }
+    .elTree {
+      max-height:400px ;
+      scrollbar-width: none; /* firefox */
+      -ms-overflow-style: none; /* IE 10+ */
+      overflow-x: hidden;
+      overflow-y: auto;
+    
+    }
+    .elTree::-webkit-scrollbar {
+      display: none; /* Chrome Safari */
+    }
+    
+  }
+
+  .workbench-default-item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    :nth-child(1) {
+      margin-left: 29px;
+    }
+    span {
+      font-size: 16px;
+      font-family: AvenirNext-DemiBold;
+      font-weight: 600;
+      color: #999999;
+    }
+    .emoji{
+      font-size: 20px;
+      margin-right: 14px;
+      margin-left: 24px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+    .color-ext {
+      color: #999999;
+    }
+    .el-tree-node {
+      width: calc(100% - 39px);
+      padding-left: 39px;
+      font-size: 16px;
+      font-family: AvenirNext-DemiBold;
+      font-weight: 600;
+      color: #999999;
+    }
+  }
+  .block_cantainer{
+    min-height: 44px;
+    max-height: 80%;
+    
+  }
+  .block_cantainer .Myblock_cantainer{
+    height: calc(100% - 44px);
+    overflow-y: scroll;
+  }
+  .block_cantainer .Myblock_cantainer::-webkit-scrollbar { width: 0 !important }
+  .Myblock_list .Noteverse_cantainer .Myblock_item span{
+    margin-left: 0!important;
+  }
+  .Myblock_list .Noteverse_cantainer .Myblock_item img{
+    margin-left:20px;
+  }
+  .active-item{
+    background-color: #dcdcdc;
+  }
+  .active-item .color-ext{
+   color: #000000;
+  }
+  .el-tree-node__content {
+    font-size: 14px!important;
+    font-family: AvenirNext-DemiBold;
+    font-weight: 500;
+    color: #999999;
+  }
+  .trush {
+    width:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    font-family: AvenirNext-DemiBold;
+    font-weight: 600;
+    color: #999999;
+    position: fixed;
+    bottom: 0;
+    img {
+      margin-left: 29px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .contextmenu{
+    position: absolute;
+    right:-100px;
+    z-index: 200;
+    top: 260px;
+    width: 200px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 9px 0;
+    .Menu_item{
+      width: calc(100% - 11px);
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      
+      padding: 5px 0px 5px 11px;
+      span{
+        font-size: 14px;
+        font-family: AvenirNext-Medium;
+        font-weight: 500;
+        color: #333333;
+        margin-left: 10px;
+      }
+    }
+    .Menu_item:hover{
+      cursor: pointer;
+      background-color: #eeeeef;
+    }
+    .move_to{
+      height: 39px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      border-top: 1px solid #E5E5EA;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.Myblock_title:hover,.Myblock_item:hover,.workbench-default-item:hover,.trush:hover{
+  cursor: pointer;
+  background-color: #dcdcdc;
+}
+.Myblock_list{
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  .Myblock_title{
+    width: calc(100% - 58px);
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0 29px;
+    
+    img{
+      width: 44px;
+      height: 44px;
+    }
+    span{
+      
+      font-size: 16px;
+      font-family: AvenirNext-DemiBold, AvenirNext;
+      font-weight: 600;
+      color: #999999;
+     
+    }
+  }
+  .Myblock_cantainer{
+    width: 100%;
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    .Myblock_item{
+      width: calc(100% - 71px);
+      padding:0 29px 0 42px;
+      height: 44px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      img{
+        width: 44px;
+        height: 44px;
+      }
+      span{
+        width: calc(100% - 44px);
+        font-size: 16px;
+        font-family: AvenirNext-DemiBold, AvenirNext;
+        font-weight: 600;
+        color: #999999;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+      }
+      :nth-child(2){
+        margin-left: -24px;
+      }
+    }
+  }
+}
+.Noteverse{
+  margin-top: 0;
+}
+.Myblock_item_active{
+  background-color: #dcdcdc;
+}
+
+
+
+.Workbench-container-main::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+
+.emoji{
+  font-size: 20px;
+  margin-right: 14px;
+  margin-left: 24px;
+}
+.el-tree-node__content{
+  padding: 9px 0;
+  padding-left: 18px;
+}
+.el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content{
+  background-color: #dcdcdc!important;
+}
+.el-tree-node:focus>.el-tree-node__content{
+  background-color: #dcdcdc!important;
+}
+.el-tree-node:hover>.el-tree-node__content{
+  background-color: #dcdcdc!important;
+}
+.Workbench-container-main .cancel-current .is-current .el-tree-node__content {
+  background-color: #dcdcdc!important;
+}

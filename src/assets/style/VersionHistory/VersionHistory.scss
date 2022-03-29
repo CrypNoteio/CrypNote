@@ -1,0 +1,119 @@
+.ExcelView{
+  width: calc(100% - 20px);
+   display: flex;
+  height: 100%;
+  padding-left:20px;
+}
+.spaceA {
+  display: flex;
+  justify-content: space-around;
+}
+.spaceB {
+  display: flex;
+  justify-content: space-between;
+}
+.versionHistory {
+  width: 100%;
+  height: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 76px);
+}
+.leftArrow {
+  width: 18px;
+  height: 28px;
+  margin: auto 0;
+  margin-right: 30px;
+}
+.marginAuto {
+  margin: auto 0;
+}
+.btnLeft {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  color: #757575;
+  font-weight: 600;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 10px;
+  padding: 0 14px;
+}
+.btnRight {
+  height: 36px;
+  line-height: 36px;
+  background: #333333;
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 10px;
+  padding: 0 14px;
+}
+.common /deep/.el-input__inner {
+  color: #333 !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+.common /deep/.nav-right span {
+  font-weight: 400;
+}
+.common {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 110px);
+  padding: 20px 55px;
+  background: #fff;
+  font-family: avenir-next-regular;
+  font-size: 15px;
+}
+.title {
+  font-size: 18px;
+  font-family: AvenirNext-DemiBold, AvenirNext;
+  font-weight: 600;
+  color: #000000;
+  margin: auto 0;
+}
+.centerT div {
+  margin: 0 12px;
+}
+.centerT div:nth-child(2) {
+  font-size: 12px;
+  color: #656565;
+  margin: auto 0;
+}
+.w-e-text-container {
+  z-index: 1 !important;
+}
+
+.w-e-menu {
+  z-index: 2 !important;
+}
+
+.w-e-toolbar {
+  z-index: 2 !important;
+}
+.w-e-toolbar {
+  border: none !important;
+  border-bottom: none !important;
+}
+.w-e-text-container {
+  border: none !important;
+}
+.el-select .el-input__inner {
+  background-color: #eeeeef !important ;
+  border: 1px solid #cec9c9 !important;
+  color: #7d7d7d !important;
+  padding: 0 10px !important;
+}
+/deep/ .el-input__inner::-webkit-input-placeholder {
+  color: #fff !important;
+}
+/deep/ .el-input__inner::-moz-input-placeholder {
+  color: #fff !important;
+}
+/deep/ .el-input__inner::-ms-input-placeholder {
+  color: #fff !important;
+}

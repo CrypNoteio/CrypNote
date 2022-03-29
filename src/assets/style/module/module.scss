@@ -1,0 +1,82 @@
+
+.contentBok{
+  width: calc(100% - 120px);
+  height: 100%;
+  padding: 0 60px;
+}
+.moduleTitle{
+  font-weight: 600;
+  color: #333;  
+}
+.table{
+  margin-top: 40px;
+  background: #ffffff;
+  box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.2);
+  border-radius:8px;
+  width:calc( 100% - 30px);
+  height: auto;
+  padding: 15px;
+  max-height: 450px;
+  overflow-y: scroll;
+  font-family: AvenirNext-DemiBold;
+}
+.table::-webkit-scrollbar{
+  display:none; 
+}
+.nothing{
+  width: 100%;
+  text-align: center;
+  color: #E6A23C;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.tableList{
+  width: 100%;
+  min-height: 52px;
+}
+.tableList tr{
+  height: 46px;
+  line-height: 46px;
+  color:#757575;
+  font-size: 14px;
+  display: flex;
+}
+.tableList td{
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.tableList td:nth-child(1){
+  width: 5%;
+  text-align: center;
+}
+.tableList td:nth-child(2){
+  width: 25%;
+  text-align: left;
+  
+}
+.tableList td:nth-child(3){
+  width:25%;
+  text-align: center;
+}
+.tableList td:nth-child(4){
+  width: 15%;
+  text-align: center;
+}
+.tableList td:nth-child(5){
+  width: 30%;
+  text-align: center;
+  color: #a0cfff;
+}
+tr:hover {
+  cursor: pointer;
+  background: #f5f5f5;
+}
+
+td {
+  display: inline-block;
+  border-bottom: 1px solid #eeeeef;
+  font-family: AvenirNext-DemiBold;
+}

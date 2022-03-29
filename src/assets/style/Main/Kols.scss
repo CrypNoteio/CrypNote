@@ -1,0 +1,70 @@
+.kols{
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+ 
+  .kols_top{
+    margin-top: 64px;
+    width: 100%;
+    height: 320px;
+    background:url('../../assets/img/kols_top_bg.png') no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 833px;
+      height: 215px;
+    }
+  }
+  .kols_list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .kols_title{
+      font-size: 36px;
+      font-family: AvenirNext-Bold, AvenirNext;
+      font-weight: bold;
+      color: #000000;
+      margin: 58px 0 40px;
+    }
+    .kols_list_container{
+      width: 833px;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 140px;
+        height: auto;
+        margin-right: 21px;
+        margin-bottom: 30px;
+        img{
+          width: 140px;
+          height: 140px;
+        }
+        span{
+          font-size: 18px;
+          font-family: Avenir-Medium;
+          font-weight: normal;
+          color: #333333;
+          line-height: 25px;
+          margin-top: 13px;
+        }
+      }
+    }
+  }
+}

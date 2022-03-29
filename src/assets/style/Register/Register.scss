@@ -1,0 +1,153 @@
+.domebg /deep/.el-input__inner {
+  padding: 0px !important;
+  border: none;
+  font-size: 14px;
+  background-color: #ffffff !important;
+}
+.domebg {
+  width: 100%;
+  min-height: 700px;
+  margin: auto;
+}
+.domeleft {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  min-width: 340px;
+  max-width: 650px;
+  min-height: 700px;
+  float: right;
+}
+.domeright {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  min-width: 800px;
+  max-width: 1120px;
+  min-height: 700px;
+  float: right;
+}
+.box1 {
+  z-index: 2;
+  width: 60%;
+  background-size: 100% 100%;
+  align-self: flex-start;
+  img{
+    width: 250px;
+    height: 60px;
+  }
+}
+.leftTitle {
+  font-size: 28px;
+  font-family: AvenirNext-DemiBold, AvenirNext;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 81px;
+}
+.leftContent {
+  color: #757575;
+  font-size: 12px;
+  margin-top: 17px;
+}
+.leftBottomImg {
+  width: 320px;
+  height: 210px;
+  background: url("../../assets/img/dome/Folder.png") no-repeat;
+  background-size: 100% 100%;
+  margin-top: 80px;
+}
+.rightLeft {
+  background: url("../../assets/img/rightBg.png") no-repeat;
+  width: 100%;
+  height:100vh;
+  min-height: 772px;
+  background-size: 100% 100%;
+  position: relative;
+}
+.rightRight {
+  background: url("../../assets/img/dome/Notebook.png") no-repeat;
+  background-size: 100% 100%;
+  width: 315px;
+  min-height: 330px;
+  position: absolute;
+  right: 0px;
+  top: 310px;
+}
+.rightTitle {
+  font-size: 36px;
+  font-family: AvenirNext-DemiBold, AvenirNext;
+  font-weight: 600;
+  color: #000000;
+}
+.rightInput {
+  font-size: 16px;
+  width: 212px;
+  border-bottom: 1px solid #d1d1d6;
+  height: 45px;
+  line-height: 45px;
+}
+.login {
+  margin-top: 40px;
+  font-size: 16px;
+  font-family: AvenirNext-DemiBold, AvenirNext;
+  font-weight: 600;
+}
+.rightLeftBottom {
+  font-size: 12px;
+  font-family: AvenirNext-DemiBold, AvenirNext;
+  font-weight: 600;
+  color: #757575;
+  margin-top: 10px;
+}
+.rightCheckbox {
+  margin-top: 15px;
+}
+.rightT {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
+}
+.passQ {
+  color: #757575;
+  font-size: 12px;
+}
+.passQ div:first-child {
+  height: 4px;
+  width: 32px;
+  background: #aa4d3d;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.passQ div:nth-child(2) {
+  height: 4px;
+  width: 32px;
+  background: #e1a14d;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+.passQ div:last-child {
+  height: 4px;
+  width: 32px;
+  background: #b7b278;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+.CrypNote {
+  color: #606266;
+}
+.el-input__inner {
+  background-color: #ffffff !important;
+}
+.Service a{
+  font-size: 11px;
+}
+
+
+@media screen and (max-width: 1120px) {
+  .rightRight {
+    display: none;
+  }
+}

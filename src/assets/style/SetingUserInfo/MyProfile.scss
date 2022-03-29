@@ -1,0 +1,109 @@
+.MyProfile{
+  width: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding:45px 30px 0 30px;
+  .title{
+    font-size: 16px;
+    font-family: AvenirNext-DemiBold;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 24px;
+  }
+  img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+  .upload-photo{
+    margin-bottom: 30px;
+  }
+  input[type=file]{
+    display: none;
+    opacity: 0;
+  }
+  label{
+    height: 36px;
+    background: #333333;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    font-family: AvenirNext-DemiBold;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .user-name{
+    font-size: 16px;
+    font-family: AvenirNext-DemiBold;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 10px;
+  }
+  .input-box{
+    width: 90%;
+    height: 31px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    border: 1px solid #C7C7CC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    input{
+      width: 96%;
+      height: 100%;
+      border:none;
+      outline: none;
+      background: #F5F5F5;
+      color: #000;
+      font-size: 15px;
+    }
+    
+  }
+  .Brief-intro{
+    width: 90%;
+    height: 80px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    border: 1px solid #C7C7CC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    textarea{
+      width: 96%;
+      height: calc(100% - 10px);
+      border:none;
+      outline: none;
+      padding: 5px 0;
+      background: #F5F5F5;
+      color: #000;
+      font-size: 15px;
+    }
+  }
+  .update{
+    width: 87px;
+    height: 36px;
+    background: #333333;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+    font-family: AvenirNext-DemiBold;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}

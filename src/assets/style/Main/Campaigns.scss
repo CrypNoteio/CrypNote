@@ -1,0 +1,375 @@
+a{
+  text-decoration: none;
+  outline: none;
+}
+a:hover{
+  cursor: pointer;
+}
+.Campaigns{
+  width: 100%;
+  background-color: #FAFAFA;
+  min-height: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 60px;
+}
+.top{
+  width: 100%;
+  height: 335px;
+  background: url('../../assets/img/top_bg.png') no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.center{
+  width: 992px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.div1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 67px;
+  margin-bottom: 57px;
+  
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+.left_top{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+ 
+  
+}
+.left_top img{
+  width: 20px;
+  height: 18px;
+  margin-left: 5px;
+}
+.Project{
+  font-size: 34px;
+  font-family: SFPro-Bold, SFPro;
+  font-weight: bold;
+  color: #000000;
+}
+.left_bottom{
+  font-size: 34px;
+  font-family: SFPro-Bold, SFPro;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 5px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+ 
+}
+.logo{
+  width: 136px;
+  height: 27px;
+  margin-bottom: 5px;
+}
+.Cooperation{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  
+ 
+}
+.Cooperation span{
+  font-size: 16px;
+  font-family: AvenirNext-DemiBold, AvenirNext;
+  font-weight: 600;
+  color: #000000;
+}
+.Cooperation  img{
+  width: 20px;
+  height: 17px;
+  margin-left: 5px;
+}
+.input_container{
+  width: 100%;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+.input_box{
+  width: 746px;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px 10px;
+  
+ 
+}
+.input_box input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+::-webkit-input-placeholder{
+  color: #999;
+  font-size: 18px;
+}
+.filter_btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.clean{
+  width: 226px;
+  height: 48px;
+  background-color: #0A84FF;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+}
+.clean:hover{
+  cursor: pointer;
+}
+.Participated{
+  width: 113px;
+  height: 48px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
+  color: #0A84FF;
+  text-align: center;
+  line-height: 48px;
+}
+.Whitelisted{
+  width: 113px;
+  height: 48px;
+  background: #000000;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+}
+.Participated:hover,.Whitelisted:hover{
+  cursor: pointer;
+}
+.Campaign_show{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 26px;
+  padding: 0 30px;
+  
+  
+}
+.Campaign_show span{
+  font-size: 16px;
+  font-family: AvenirNext-DemiBold, AvenirNext;
+  font-weight: 600;
+  color: #000000;
+}
+.filer_img{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+ 
+}
+.filer_img  span{
+  font-size: 14px;
+  font-family:AvenirNext-Medium, AvenirNext;
+  font-weight: 500;
+  color: #757575;
+  margin-left: 16px;
+}
+.filer_img:hover{
+  cursor: pointer;
+}
+.img1{
+  width: 20px;
+  height: 20px;
+}
+.img2{
+  width: 20px;
+  height: 20px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,.5);
+}
+.list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 0;
+  
+}
+.list_item{
+  width: 992px;
+  min-height: 158px;
+  height: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  
+
+}
+.list_item img{
+  width: 158px;
+  height: 158px;
+}
+.item_width{
+  width: 100%;
+}
+.item_info{
+  min-width: calc(100% - 158px);
+  max-width: 100%;
+  padding: 20px 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+ 
+}
+.box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.link{
+  font-size: 18px;
+  font-family: AvenirNext-DemiBold, AvenirNext;
+  font-weight: 600;
+  color: #0A84FF;
+}
+.by{
+  font-size: 18px;
+  font-family: AvenirNext-Regular, AvenirNext;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 5px;
+}
+.openblox{
+  font-size: 18px;
+  font-family: AvenirNext-Bold, AvenirNext;
+  font-weight: bold;
+  color: #000000;
+}
+.box_right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+.MATIC{
+  padding: 5px 5px;
+  background: #0A84FF;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  margin-right: 20px;
+}
+.Minted{
+  padding: 5px 5px;
+  background: #000000;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+}
+.MATIC:hover,.Minted:hover{
+  cursor: pointer;
+}
+.time{
+  font-size: 14px;
+  font-family: AvenirNext-Regular, AvenirNext;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 8px;
+  margin-bottom: 21px;
+}
+.Badge{
+  width: 100%;
+  height: 48px;
+  background: #F5F5F8;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 9px;
+  
+  
+  
+}
+.Badge a{
+  font-size: 18px;
+  font-family: AvenirNext-Medium, AvenirNext;
+  font-weight: 500;
+  color: #BF5AF2;
+  
+}
+.Badge  span{
+  padding: 5px;
+  background: #BF5AF2;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+}
+.Badge span:hover,.Badge a:hover{
+  cursor: pointer;
+}
+.marginbottom{
+  margin-bottom: 10px;
+}

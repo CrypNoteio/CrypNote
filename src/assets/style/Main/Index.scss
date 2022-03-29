@@ -1,0 +1,337 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.mouseHand {
+	cursor: pointer;
+}
+
+.router-link-active {
+	text-decoration: none;
+}
+
+.lattice {
+	background: url('../../assets/img/img3.png') no-repeat;
+	width: 100%;
+	background-size: 100% 100%;
+	padding: 44px 0 100px 0;
+}
+
+.beta {
+	width: 47px;
+	height: 22px;
+	margin-left: 4px;
+}
+
+.left {
+	display: flex;
+	flex-direction: row;
+}
+
+.headerAll {
+	width: calc(100% - 80px);
+	padding: 0 40px;
+	vertical-align: middle;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 140px;
+	height: 34px;
+
+}
+
+.label {
+	font-size: 18px;
+	font-weight: 600;
+	font-family: "AvenirNext-Bold";
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 94px;
+}
+
+.label div {
+	margin: 0 15px;
+	padding: 4px 20px;
+}
+
+.labelN{
+	font-family: "AvenirNext-Bold";
+}
+.labelN a{
+	color: rgba(174, 174, 178, 1);
+	line-height: 40px;
+	margin-right: 40px;
+}
+.active {
+	border: 4px solid rgba(0, 0, 0, 1);
+
+}
+
+.btn {
+	display: flex;
+	flex-direction: row;
+}
+
+.btn img {
+	width: 110px;
+}
+
+.banner {
+	width: 960px;
+	background: url('../../assets/img/img7.png') no-repeat;
+	background-size: 100% 100%;
+	height: 298px;
+	max-height: 298px;
+	margin: 0 auto;
+	margin-top: 90px
+}
+
+.ModuleII {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.ModuleIILeft {
+	background: url('../../assets/img/img8.png') no-repeat;
+	background-size: 100% 100%;
+	width: 68%;
+	padding-bottom: 34%;
+}
+
+.ModuleIIRight {
+	width: 32%;
+	margin: auto;
+}
+
+.ModuleIIRight div:first-child {
+	font-size: 42px;
+	font-family: "AvenirNext-Heavy";
+	font-weight: 800;
+	color: #000000;
+	line-height: 66px;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 40px
+}
+
+.ModuleIIRight div:nth-child(2) {
+	font-size: 20px;
+	color: #000000;
+	line-height: 44px;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 18px;
+	font-family: "Avenir-Medium";
+
+}
+
+.ModuleIII {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background: black;
+}
+
+.ModuleIIIRight {
+	background: url('../../assets/img/img6.png') no-repeat;
+	background-size: 100% 100%;
+	width: 615px;
+	height: 425px;
+}
+
+.ModuleIIILeft {
+	width: calc(100% - 615px);
+	margin: auto;
+}
+
+.ModuleIIILeft div:first-child {
+	font-size: 42px;
+	font-family: "AvenirNext-Heavy";
+	font-weight: 800;
+	color: white;
+	line-height: 66px;
+	width: 400px;
+	margin-top: 40px;
+	margin: 0 auto;
+	margin-top: 72px;
+
+}
+
+.ModuleIIILeft div:nth-child(2) {
+	font-size: 18px;
+	color: #c7c7c7;
+	line-height: 44px;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 18px;
+	font-weight: 600;
+	font-family: "Avenir-Heavy";
+}
+
+.ModuleⅣ {
+	background: #fafafa;
+	padding: 100px 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.ModuleⅣLeft {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+
+}
+
+.ModuleⅣLeft img {
+	width: 458px;
+	height: 358px;
+}
+
+.ModuleIVRight {
+	width: 50%;
+
+}
+
+.ModuleIVRight div:first-child {
+	font-size: 42px;
+	font-family: "AvenirNext-Bold";
+	font-weight: bold;
+	color: #000000;
+	line-height: 66px;
+	width: 82%;
+	max-width: 650px;
+}
+
+.ModuleIVRight div:nth-child(2) {
+	max-width: 660px;
+	font-family: "AvenirNext-Bold";
+	color: rgba(117, 117, 117, 1);
+	font-size: 22px;
+	font-family: "Avenir-Medium";
+	line-height: 33px;
+	margin-top: 10px;
+}
+
+.ModuleV2 {
+	padding: 66px 0;
+}
+
+.ModuleV2 .title2 {
+	font-size: 58px;
+	font-family: "AvenirNext-Bold";
+	font-weight: bold;
+	color: #000000;
+	line-height: 82px;
+	text-align: center;
+}
+
+.ModuleV2 .center2 {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.ModuleV2 ul {
+	list-style: none;
+}
+
+.ModuleV2 ul li {
+	display: flex;
+	flex-direction: row;
+	color: rgba(117, 117, 117, 1);
+	font-family: "Avenir-Medium";
+
+}
+
+.spot2 {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #0A84FF;
+	margin: auto 10px;
+}
+
+.ModuleV2 .line2 .hr2 {
+	height: 1px;
+	width: 100%;
+	background: #c7c7c7;
+	margin-top: 30px;
+}
+
+.ModuleV2 .line2 .hr2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.ModuleV2 .line2 .hr2 img {
+	width: 16px;
+	height: 16px;
+	margin-top: -8px;
+
+}
+
+.ModuleV2 .line2 .text2 {
+	color: rgba(10, 132, 255, 1);
+	font-size: 24px;
+	font-family:"Avenir-Black";
+	white-space: nowrap;
+	line-height: 33px;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer2 {
+	padding: 14px 0;
+	background: black;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer2 .left2 {
+	font-size: 16px;
+	font-family: AvenirNext-DemiBold, AvenirNext;
+	font-weight: 600;
+	color: #999999;
+	line-height: 48px;
+}
+
+.footer2 .right2 img {
+	width: 40px;
+	height: 40px;
+	margin: 0 16px;
+}
+.s{
+  width: 100%;
+  height: 334px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('../../assets/img/Cooperation_bg.png')no-repeat;
+  background-size: 100% 100%;
+}
+
+.partners_items{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	:last-child{
+		width: 277px;
+		height: 112px;
+	}
+}
+.Partners{
+  font-size: 60px;
+font-family: AvenirNext-Bold, AvenirNext;
+font-weight: bold;
+color: #000000;
+margin-bottom: 23px;
+}

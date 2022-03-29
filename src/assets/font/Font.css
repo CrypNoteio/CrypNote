@@ -1,0 +1,79 @@
+@font-face {  
+	font-family: 'avenir-next-regular';   
+	src: url('./avenir-next-regular.ttf'); 
+	font-weight: normal;  
+	font-style: normal;  
+}
+@font-face {  
+	font-family: 'AvenirNext-DemiBold';   
+	src: url('./AvenirNext-DemiBold.ttf'); 
+	font-weight: normal;  
+	font-style: normal;  
+}
+@font-face {  
+	font-family: 'AvenirNext-Heavy';   
+	src: url('./AvenirNext-Heavy.ttf'); 
+	font-weight: normal;  
+	font-style: normal;  
+}
+
+@font-face {  
+	font-family: 'AvenirNext-Medium';   
+	src: url('./AvenirNext-Medium.ttf'); 
+	font-weight: normal;  
+	font-style: normal;  
+}
+@font-face {  
+	font-family: 'AvenirNext-UltraLt';   
+	src: url('./AvenirNext-UltraLt.ttf'); 
+	font-weight: normal;  
+	font-style: normal;  
+}
+@font-face {  
+	font-family: 'Apple';   
+	src: url('./Apple.ttf'); 
+	font-weight: normal;  
+	font-style: normal;  
+}
+@font-face {  
+	font-family: 'Joystix';   
+	src: url('./Joystix.ttf'); 
+	font-weight: normal;  
+	font-style: normal;  
+}
+
+@font-face {
+	font-family: "AvenirNext-Bold";
+	src: url("./AvenirNext-Bold.ttf");
+	font-weight: normal;  
+	font-style: normal;  
+}
+
+@font-face {
+	font-family: "AvenirNext-Heavy";
+	src: url("./AvenirNext-Heavy.ttf");
+	font-weight: normal;  
+	font-style: normal;  
+}
+
+@font-face {
+	font-family: "Avenir-Medium";
+	src: url("./Avenir-Medium.ttf");
+	font-weight: normal;  
+	font-style: normal;  
+}
+
+@font-face {
+	font-family: "Avenir-Heavy";
+	src: url("./Avenir-Heavy.ttf");
+	font-weight: normal;  
+	font-style: normal;  
+}
+
+
+@font-face {
+	font-family: "Avenir-Black";
+	src: url("./Avenir-Black.ttf");
+	font-weight: normal;  
+	font-style: normal;  
+}

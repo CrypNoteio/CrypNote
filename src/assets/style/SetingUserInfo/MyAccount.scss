@@ -1,0 +1,212 @@
+.MyAccount{
+  width: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding:45px 30px 0 30px;
+  .box{
+    border:  1px solid #e8e8e8;
+    width: calc(100% - 30px);
+    padding: 20px 15px;
+    margin:12px 0;
+  }
+  .information{
+    color:#8c8c8c;
+    font-size:14px;
+    margin-left: 10px;
+  }
+  .title{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 45px;
+    :first-child{
+      font-size: 36px;
+      font-family: AppleColorEmoji;
+      color: #333333;
+      margin-right: 14px;
+    }
+    :last-child{
+      font-size: 18px;
+      font-family: AvenirNext-DemiBold;
+      font-weight: 600;
+      color: #333333;
+    }
+  }
+  .user-name{
+    font-size: 16px;
+    font-family: AvenirNext-DemiBold;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .emoji{
+     margin-right: 5px;
+    }
+  }
+  .input-box{
+    width: 90%;
+    height: 31px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    border: 1px solid #C7C7CC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    input{
+      width: 96%;
+      height: 100%;
+      border:none;
+      outline: none;
+      background: #F5F5F5;
+      color: #000;
+      font-size: 15px;
+    }
+    
+  }
+  .update{
+    width: 87px;
+    height: 36px;
+    background: #333333;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    color: #fff;
+    font-family: AvenirNext-DemiBold;
+    margin-top: 73px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .change{
+    float:right;
+    margin-top: -30px;
+    color: #333333;
+    font-family: AvenirNext-DemiBold, AvenirNext;
+    font-weight: 600;
+  }
+  .change:hover{
+    cursor: pointer;
+  }
+  .einput{
+    border:1px solid #d9d9d9;
+    border-radius: 5px;
+    padding:0 10px;
+    margin: 10px 0;
+    height: 40px;
+    line-height: 40px;
+  }
+  .chage_box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    img{
+      margin-left: 5px;
+    }
+  }
+  .Domain_tips{
+    font-size: 16px;
+    font-family: Avenir-Medium;
+    font-weight: 500;
+    color: #FF9F0A;
+    line-height: 22px;
+  }
+  .Domain_tips_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0 20px;
+    :first-child{
+      width: 6px;
+      height: 6px;
+      background: #48484A;
+      border-radius: 50%;
+      margin-top: 5px;
+    }
+    :last-child{
+      width: calc(100% - 6px);
+      font-size: 14px;
+      font-family: AvenirNext-Medium, AvenirNext;
+      font-weight: 500;
+      color: #757575;
+      line-height: 19px;
+      margin-left: 6px;
+    }
+  }
+  .ChanageDomainConfirm{
+    width: 170px;
+    height: 36px;
+    background: #333333;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: AvenirNext-DemiBold, AvenirNext;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 36px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .Domain_title{
+    font-size: 18px;
+    font-family: AvenirNext-DemiBold;
+    font-weight: 600;
+    color: #333333;
+    line-height: 25px;
+  }
+  .domain_url{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: #F0F0F0;
+    border-radius: 4px;
+    border: 1px solid #E5E5EA;
+    margin-bottom: 20px;
+    :first-child,:last-child{
+      border-right: 1px solid #E5E5EA;
+      width: 100px;
+      text-align: center;
+      height: 100%;
+      line-height: 40px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #999999;
+      background-color: #F0F0F0;
+    }
+    :last-child{
+      width: 120px;
+    }
+    :nth-child(2){
+      border-left: 1px solid #E5E5EA;
+      background-color: #fafafa;
+      text-align: left;
+      height: 100%;
+      line-height: 40px;
+      border: none;
+      outline: none;
+      width: calc(100% - 240px);
+      padding: 0 10px;
+      font-family: AvenirNext-DemiBold;
+      font-weight: 600;
+      color: #333333;
+    }
+  }
+}

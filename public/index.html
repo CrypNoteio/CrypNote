@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<link rel="icon" href="./favicon.ico"  type="image/x-ico">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/plugins/css/pluginsCss.css' />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/plugins/plugins.css' />
+    <!-- <link rel='stylesheet' href='./css/luckysheet.css' /> -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/css/luckysheet.css' />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/luckysheet/dist/assets/iconfont/iconfont.css' />
+   
+    <!-- <link rel='stylesheet' href='./plugins/css/pluginsCss.css' />
+    <link rel='stylesheet' href='./plugins/plugins.css' />
+    <link rel='stylesheet' href='./css/luckysheet.css' />
+    <link rel='stylesheet' href='./assets/iconfont/iconfont.css' />
+    <script src="./plugins/js/plugin.js"></script>
+    <script src="./luckysheet.umd.js"></script> -->
+
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      html,body{
+        height:100%;
+        background-color: #fafafa;
+      }
+      a{
+        text-decoration: none;
+      }
+      .el-loading-spinner .el-loading-text{
+        color: #ffffff!important;
+        letter-spacing: 1px;
+      }
+    
+      .el-loading-spinner .path{
+      stroke:#fff!important;
+      }
+      .el-select .el-input__inner{
+        border: none;
+      }
+      .MessageListCantainer .el-pager li,.el-pagination button:disabled,.el-pagination .btn-next, .el-pagination .btn-prev{
+        background-color: #fafafa!important;
+      }
+      .MessageListCantainer .el-pager li{
+        color: #ccc;
+      }
+      .MessageListCantainer .btn-next:hover,.MessageListCantainer .btn-prev:hover{
+        color: #000!important;
+      }
+      .MessageListCantainer .el-pager li.active+li{
+        color: #ccc;
+      }
+      .MessageListCantainer .el-pager li.active{
+        color: #000!important;
+      }
+      #verifye .el-dialog .el-dialog__header{
+        padding: 0;
+      }
+      #verifye .el-dialog .el-dialog__body{
+        padding: 0;
+      }
+     .MessageListCantainer .el-pager li:hover{
+        color: #000!important;
+      }
+      .Nav-container .el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover{
+        background-color: #f5f5f5!important;
+      }
+      .excel .el-input__inner,.word .el-input__inner{
+        padding: 0;
+        background-color: #fff!important;
+        border:none;
+      }
+      .Domain_dialog .el-dialog__header{
+        text-align:left;
+        border-bottom: 1px solid #E5E5EA;
+        font-size: 18px;
+        font-family: AvenirNext-DemiBold, AvenirNext;
+        font-weight: 600;
+        color: #333333;
+      }
+      .Domain_dialog .el-dialog__headerbtn .el-dialog__close{
+        color: #333;
+      }
+      .Domain_dialog .el-dialog__headerbtn .el-dialog__close:hover{
+        color: #333;
+      }
+      .luckysheet-loading-mask{
+        width: 0;
+        height: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script src="https://cdn.jsdelivr.net/npm/luckysheet/dist/plugins/js/plugin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luckysheet/dist/luckysheet.umd.js"></script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

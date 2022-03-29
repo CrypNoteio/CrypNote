@@ -1,0 +1,125 @@
+.Verifye_cantainer{
+  width: 100%;
+  height:560px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  .cantainer_left{
+    width: 200px;
+    height: 450px;
+    background: #3A7FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+    img{
+      width: 96px;
+      height: 96px;
+    }
+    span{
+      width: 160px;
+      height: 36px;
+      background: #FFFFFF;
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+      border-radius: 6px;
+      font-size: 16px;
+      font-family: AvenirNext-DemiBold;
+      font-weight: 600;
+      color: #3A7FFF;
+      line-height: 36px;
+      text-align: center;
+    }
+    span:hover{
+      cursor: pointer;
+    }
+  }
+  .cantainer_right{
+    width: calc(100% - 260px);
+    height: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    position: relative;
+    .close_btn{
+      position: absolute;
+      right: 30px;
+      top: 30px;
+    }
+    .right_title{
+      padding: 15px 0 19px;
+      border-bottom: 1px solid #E5E5EA;
+      font-size: 18px;
+      font-family: AvenirNext-DemiBold;
+      font-weight: 600;
+      color: #333333;
+      width: 95%;
+    }
+    .des{
+      width: 95%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      .des_one{
+        margin: 44px 0 20px;
+        font-size: 14px;
+        font-family: AvenirNext-Medium;
+        font-weight: 500;
+        color: #000000;
+        line-height: 19px;
+        overflow-wrap:break-word; 
+        span{
+          color: #FB8960;
+        }
+      }
+      .des_two{
+        font-size: 14px;
+        font-family: AvenirNext-Medium;
+        font-weight: 500;
+        color: #000000;
+        line-height: 19px;
+        overflow-wrap:break-word; 
+        margin-bottom: 20px;
+        span{
+          font-weight: bold;
+        }
+      }
+      .imgs{
+        margin-bottom: 29px;
+        :first-child{
+          margin-right: 18px;
+        }
+      }
+      .des_three{
+        width:calc(100% - 20px);
+        padding: 0 10px;
+        height: 36px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: 1px solid #C7C7CC;
+        line-height: 36px;
+        margin-bottom: 20px;
+        input{
+          font-size: 14px;
+          font-family: AvenirNext-Medium;
+          font-weight: 500;
+          color: #000000;
+          width: 100%;
+          border: none;
+          outline: none;
+        }
+        ::-webkit-input-placeholder{
+          color: #999;
+          font-size: 14px;
+          font-family: AvenirNext-Medium;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

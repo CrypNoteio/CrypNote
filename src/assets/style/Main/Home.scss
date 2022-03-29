@@ -1,0 +1,165 @@
+
+#ct{
+	width: 100%;
+	display: block;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+  height: 100%;
+}
+
+#mainHome{
+	width: 100%;
+	display: block;
+  background: url('../../assets/img/bg3.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+}
+
+#bottom{
+	width: 100%;
+	height: 5rem;
+	background-color: #B6B6B6;
+	position: fixed;
+	bottom: 0;
+	padding: 0.5rem;
+	z-index: 1000;
+}
+
+#bottom #lb{
+	width: 11.125rem;
+	height: 4rem;
+}
+.img2 {
+ width: 4rem;
+ height: 4rem;
+ margin-right: 9.5rem;
+ position: absolute;
+ right: 0;
+}
+
+.pic5 {
+ width: 4rem;
+ height: 4rem;
+ margin-right: 5rem;
+ position: absolute;
+ right: 0;
+}
+
+.pic6 {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.5rem;
+  position: absolute;
+  right: 0;
+}
+
+.wrap1{
+	padding: 5rem 0 0 3.125rem;
+}
+.home,.about,.mint,.connect{
+	width: 4rem;
+}
+.txt1,.txt2,.txt3,.txt4{
+	width: 4rem;
+	text-align: center;
+	height: 20px;
+	font-size: 16px;
+	font-family: Joystix;
+	color: #FFFFFF;
+	margin-top: 0.5625rem;
+	margin-bottom: 3.5625rem;
+}
+.wrap3{
+	margin-left: 4.0625rem;
+  margin-top: -10px;
+}
+.wrap3 .txt4{
+	float: left;
+}
+
+.wrap4home{
+	width: 48.75rem;
+	height: 31rem;
+	background-color: #000000;
+	margin:0 auto;
+	position: relative;
+	top:2rem;
+}
+
+
+
+.layer3 {
+  height: 57px;
+  border: 8px solid rgba(0, 0, 0, 1);
+  background-color: rgba(10, 132, 255, 1);
+  width: 780px;
+  padding: 14px 0 0 16px;
+}
+
+.info1 {
+  width: 418px;
+  height: 18px;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-family: Joystix;
+  white-space: nowrap;
+  line-height: 18px;
+}
+
+.box2 {
+  z-index: 99;
+  
+  width: 330px;
+  height: 412px;
+  border: 8px solid rgba(0, 0, 0, 1);
+  background-color: rgba(254, 98, 129, 1);
+  position: absolute;
+  top: 52px;
+}
+
+.box1 {
+
+  width: 300px;
+  height: 441px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+
+.layer4 {
+  
+  height: 357px;
+  margin: 7px 0 0 20px;
+}
+
+.bd1 {
+  width: 300px;
+  height: 377px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.bd2 {
+  height: 377px;
+  background-color: rgba(0, 0, 0, 1);
+  width: 420px;
+  padding: 17px 0 0 21px;
+}
+
+.infoBox2 {
+  width: 377px;
+  height: 336px;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(142, 142, 147, 1);
+  font-size: 14px;
+  letter-spacing: -1.5px;
+  font-family: Apple;
+  line-height: 21px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
